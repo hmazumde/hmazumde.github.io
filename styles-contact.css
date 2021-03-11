@@ -60,7 +60,7 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/bricks_bg.jpg)
+  background: url(images/wall_bg.jpg)
       center center fixed no-repeat;
     background-size: cover;
 	
@@ -68,59 +68,115 @@ html, body {
 }
 
 .center {
-    width: 800px;
-	padding: 2%;
+    width: 500px;
+    height: 300px;
+	padding: 3%;
     margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+ 	background:#E0B199;
 	text-align: center;
-	border: 4px dashed white;
+	border: none;
+    border-radius: 25px;
+    position:relative; 
+    top:-50px; 
+    left:50px;
+    
 }
 
    
 #logo {
-    margin-bottom: 16px;
-	border: 3px dashed red;
-	text-align: center;
+    margin-top: 50px;
+    margin-left: 20px;
+	border: none;
+	text-align: right;
 }
 
 h1 {
-	font-family: times, serif;
-	font-size: 2em;
+	font-family: avenir, sans-serif;
+	font-size: 3em;
     margin: 0px auto 10px auto;
-    color: #fff;
+    color: #333333;
+    text-align: center;
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    top: -375px;
+    
+    
 }
 
 h2 {
-    font-family: hwt-arabesque, sans-serif;
-    font-weight: 400;
+    font-family: avenir, sans-serif;
+    font-weight: 200;
     font-style: normal;
 	font-size: 1.5em;
-    line-height: 1.4;
-    color: #fff;
+    line-height: 1.7;
+    color: #4D4D4D;
     padding: 0px 0px;
-    margin: 0px auto 25px auto;
+    margin: 10px;
+    text-align: center;
+    position: relative;
+    top: -375px;
+   
+}
+h3 {
+    font-family: avenir, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+	font-size: 1.5em;
+    line-height: 2.0;
+    color: #4D4D4D;
+    padding: 0px 0px;
+    margin: 10px;
+    text-align: center;
+    position: relative;
+    top: -375px;
+    
+    
+}
+h4 {
+    font-family: avenir next, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+	font-size: 7em;
+    line-height: 1.4;
+    color: #4D4D4D;
+    padding: 0px 0px;
+    margin: 60px 250px 20px 40px;
+    text-align: center;
+    float: right;
 }
 
 p {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */		;
-	font-size: 1.2em;
+    font-family: lamar pen;
+	font-size: 3em;
     line-height: 1.6;
-    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+    color: #4D4D4D;
 }
   
 nav{
-    font-family: garamond;
-    font-size: 1.2em;
+    font-family: avenir next;
+    font-size: 2em;
+    letter-spacing: 3px;
     width: 400 px; 
-    margin: 0 auto;
-    border: dashed turquoise;
-    border-width: 3px 0;
+    margin: 150px;
+    border-width: 6px 0;
     text-align: center;
-    margin-top: 2em;
+    float: right;
+   
+   
+    
+    
+    
+    
 }
 
 nav li{
-        display: inline
+        display: inline-block;
         }  
 
 nav a{
@@ -129,13 +185,14 @@ nav a{
         }
 
 a{
-    color:floralwhite;
+    color:#555;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: light;
 }
 
 a:hover{
-    color: black;
-    background: pink;
+    text-decoration: underline;
+    background: #DC9E7C;
+    opacity: .4;
 }
 
