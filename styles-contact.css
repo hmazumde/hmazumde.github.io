@@ -68,6 +68,7 @@ html, body {
 }
 
 .center {
+    
     width: 500px;
     height: 300px;
 	padding: 3%;
@@ -84,8 +85,8 @@ html, body {
 
    
 #logo {
-    margin-top: 50px;
-    margin-left: 20px;
+    margin-top: 40px;
+    margin-left: 5px;
 	border: none;
 	text-align: right;
 }
@@ -117,7 +118,7 @@ h2 {
     margin: 10px;
     text-align: center;
     position: relative;
-    top: -375px;
+    top: -365px;
    
 }
 h3 {
@@ -125,13 +126,13 @@ h3 {
     font-weight: 200;
     font-style: normal;
 	font-size: 1.5em;
-    line-height: 2.0;
+    line-height: 2.3;
     color: #4D4D4D;
     padding: 0px 0px;
     margin: 10px;
     text-align: center;
     position: relative;
-    top: -375px;
+    top: -370px;
     
     
 }
