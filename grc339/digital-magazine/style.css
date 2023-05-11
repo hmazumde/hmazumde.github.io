@@ -1,0 +1,89 @@
+/*CSS document*/
+
+body {
+    background-color: #f2efe6;
+}
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-decoration: none;
+}
+
+li {
+    display: inline;
+    padding: 0 1rem 0 0;
+    margin: auto;
+    font-family: larken, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: .8rem;
+    letter-spacing: 0.03rem;
+  
+}
+
+a {
+    text-decoration: none;
+    color:rgb(29, 31, 33);
+}
+
+h2 {
+    font-family: larken, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin: 1rem 0 0 0;
+}
+
+h2.related {
+    margin: 4rem 0 0 0;
+}
+
+figcaption {
+    font-family: mrs-eaves-roman-lining, serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(29, 31, 33);
+    margin: 0 0 1rem 0;
+}
+
+h3 {
+    font-family: larken, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.1rem;
+    letter-spacing: 0.03rem;
+    margin: 0.25rem 0 0 0;
+    color: #824376;
+}
+
+p {
+    font-family: mrs-eaves-roman-lining, serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(29, 31, 33);
+    margin: 0 0 1rem 0;
+}
+
+img.logo {
+    width: 60%;
+    margin: 1rem 0 0 0;
+}
+
+p.footer {
+    background-color: #824376;
+    color: #f2efe6;
+    padding: 1rem 0.25rem;
+}
